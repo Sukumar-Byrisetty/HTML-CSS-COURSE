@@ -1,0 +1,85 @@
+/* text-shadow
+box-shadow => */
+h1 {
+ text-shadow: 1px 1px 10px red;
+ /* => {1px=x-axis, 1px=y-axis, 10px=blur, color} */
+}
+
+.box {
+ width: 200px;
+ height: 200px;
+ background: green;
+ margin: 20px;
+ box-shadow: 3px 5px 5px blue;
+ transition: all 0.5s linear;
+}
+
+.box:hover {
+ -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+ -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+ box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+/* ICONS
+FONT-AWESOME ICONS
+FREE, EASY TO GET UP RUNNING, SIMPLE SYNTAX => */
+/* .fa-home {
+ color: green;
+}
+.social-icon {
+ font-size: 5rem;
+ color: blue;
+} */
+
+/* CSS variables AKA Custom Properties
+hold a value and reuse it
+--varName:value
+property:var(--varname)
+scope
+:root{} === global
+element === local
+any property =>  */
+
+/*.heading {
+ color: #0a47ca;
+}
+.text {
+ color: #b67403;
+}
+.main-text {
+ color: #138d64
+}
+.second-heading {
+ color: #05eff7;
+}
+.third-heading {
+ color: #26ac08;
+}  */
+
+/* --varName:value => */
+/*:root {
+ --primaryColor: #ff001a;
+ --secondaryColor: #b14d5c;
+ --mainTransition:all 0.4s linear;
+}
+.heading {
+ color: var(--primaryColor);
+}
+.second-heading {
+ color: var(--primaryColor);
+ transition: var(--mainTransition);
+} */
+
+/* property:var(--varname) => */
+/* :root {
+ --primaryColor: #ff001a;
+ --secondaryColor: #b14d5c;
+ --mainTransition: all 0.4s linear;
+}
+.second-heading {
+ color: var(--primaryColor);
+ transition: var(--mainTransition);
+}
+.second-heading:hover {
+ color: var(--secondaryColor);
+} */
