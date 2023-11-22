@@ -1,0 +1,178 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+div {
+ min-height: 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ font-size: 60px;
+ color: orange;
+}
+.banner {
+ background: url("./big-img.jpg");
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+}
+.header {
+ background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+ url("./big-img.jpg")center/cover fixed no-repeat;
+}
+
+/* LINEAR-GRADIENT =>  */
+/* div {
+ width: 200px;
+ height: 200px;
+ margin: 5px;
+ box-sizing: border-box;
+}
+.one {
+ background: linear-gradient(red, green);
+}
+.two {
+ background: linear-gradient(to top, red, green, blue, yellow);
+}
+.three {
+ background: linear-gradient(315deg, red, green);
+}
+.four {
+  background: linear-gradient(to top right, red, green);
+}
+.five {
+ background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9));
+}
+.six {
+ background: linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9));
+} */
+
+/* BACKGROUND-ATTACHMENT => 
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+div{
+ min-height: 100vh;
+ color: green;
+ font-size: 60px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+}
+.big-img {
+ background: url("./big-img.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-attachment: fixed
+}
+.small-img {
+ border: 2px solid red;
+ background: url("./img/folder-img.jpg"); background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-attachment: fixed
+}
+.folder-img {
+ background: url("./big-img.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-attachment: fixed
+} */
+
+/* background-position => */
+/* div {
+ height: 400px;
+ color: red;
+}
+.big-img {
+ background: url("./big-img.jpg");
+ background-size: cover;
+ /* background-position: center; 
+}
+.small-img {
+ border: 2px solid red;
+ background: url("./small.jpg");
+ background-repeat: no-repeat;
+ /* background-position: center;
+ background-position: bottom;
+ background-position: left;
+ background-position: right;
+ background-position: top; 
+ background-position: 100% 100%; 
+  {x-axis=100%, y-axis=100%} 
+}  
+.folder-img {
+ background: url("./img/folder-img.jpg");
+ background-size: contain;
+ background-repeat: no-repeat;
+} */
+
+/* background-size => */
+  /* div {
+   height: 400px;
+   color: red;
+  }
+  .big-img {
+   background: url("./big-img.jpg");
+   background-repeat: round;
+   background-size: cover;
+  }
+  .small-img {
+   border: 2px solid red;
+   background: url("./small.jpg");
+   background-size: cover;
+  }
+  .folder-img {
+   background: url("./img/folder-img.jpg");
+   background-size: contain;
+   background-repeat: no-repeat;
+  } */
+
+/* div {
+ height: 400px;
+ color: red;
+}
+div {
+ height: 200px;
+ color: blue;
+}
+.big-img {
+ background: url("./big-img.jpg");
+}
+.small-img {
+ background: url("./small.jpg");
+}
+.folder-img {
+ background: url("./img/folder-img.jpg");
+} */
+
+/* LAST RULE ORDER => */
+/* div {
+ height: 400px;
+ color: red;
+}
+.big-img {
+ background: url("./big-img.jpg");
+ background-repeat: round;
+}
+.small-img {
+ border: 2px solid red;
+ background: url("./small.jpg");
+ background-repeat: repeat;
+ background-repeat: no-repeat;
+ background-repeat: repeat-x;
+ background-repeat: repeat-y;
+ background-repeat: space;
+ background-repeat: round;
+}
+.folder-img {
+ background: url("./img/folder-img.jpg");
+} */
