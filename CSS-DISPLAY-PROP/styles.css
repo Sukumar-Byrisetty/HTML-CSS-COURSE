@@ -1,0 +1,122 @@
+/* DISPLAY:NONE
+OPACITY:0
+VISIBILITY:HIDDEN => */
+div {
+ background: blue;
+ margin: 10px;
+ color: white;
+}
+
+.none {
+ display: none;
+}
+
+.opacity-1 {
+ opacity: 1;
+}
+
+.opacity-5 {
+ opacity: 0.5;
+}
+
+.opacity-0 {
+ opacity: 0;
+}
+
+.visibility {
+ visibility: hidden;
+}
+
+/* BORDER-BOXING
+NORMAL
+WITHOUT BORDER => */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box-1,.box-2,.box-3 {
+  width: 200px;
+  height: 200px;
+  color: white;
+}
+.box-1 {
+  background: red;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.box-2 {
+  background: green;
+}
+.box-3 {
+  background: blue;
+  padding: 20px;
+} */
+
+/* INLINE BLOCK */
+/* a {
+  font-size: 20px;
+  background: chocolate;
+  margin: 40px;
+  display: inline-block;
+} */
+
+/* Block:Top Margin Respected
+Inline: Top Bottom Margin Not Respected
+Mobile Navbar
+list-style-type: property
+descendant selectors => */
+/* 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul li {
+  list-style-type: none;
+}
+ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  background: #221fa2;
+  color: orange;
+  display: block;
+  padding: 10px 10px;
+  margin: 10px;
+} */
+
+/* HORIZONTAL CENTERING => */
+/* body {
+  text-align: center;
+}
+.block {
+  background: purple;
+  color: whitesmoke;
+  width: 150px;
+  margin: 20px auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.inline {
+  background-color: red;
+  color: white;
+} */
+
+/* DEFAULT DISPLAY PROPERTY
+BLOCK : Always starts a new line takes full width
+INLINE : Does not start new line and only take up as much as content space => */
+
+/* .block {
+  background: blue;
+  color: whitesmoke;
+  display: inline;
+}
+.inline {
+  background-color: red;
+  color: white;
+  display: block;
+} */
