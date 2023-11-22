@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>CSS Tutorial</title>
+ <link rel="stylesheet" href="styles.css">
+ <!-- <style>
+          h1 {
+               color: red;
+               font-size: 2rem;
+          }
+          h2 {
+               color: purple;
+               font-size: 1.5rem;
+          }
+     </style> -->
+</head>
+
+<body>
+ <div>
+  <h1>i'm heading</h1>
+  <p>
+   Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, voluptatem.
+  </p>
+  <p>
+   Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, doloribus.
+  </p>
+ </div>
+
+ <!-- SPECIFICITY => EG:
+     <div>
+          <h1>i'm heading</h1>
+          <p class="red">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, neque?
+          </p>
+          <p class="red">
+               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis, id.
+          </p>
+     </div> -->
+
+ <!-- INHERITANCE => EG:
+     <div>
+          <h1>i'm heading</h1>
+          <p>
+               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, earum?
+          </p>
+          <p>
+               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam, alias.
+          </p>
+     </div> -->
+
+ <!-- DIV & SPAN ELEMENTS => EG:
+     <div class="red">
+          <h1>heading 1</h1>
+          <p>
+               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, voluptates perspiciatis totam nobis illum
+               tempore! Possimus recusandae cum dolore minus consequatur rem facilis sequi eum?
+          </p>
+     </div>
+     <div class="green">
+          <h2>heading 2</h2>
+          <p>
+               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+               <div class="red">
+                    i'm uppercase
+               </div>
+               heyn
+               Vero aperiam dignissimos pariatur rerum veniam quibusdam voluptate iure animi tenetur expedita!
+          <span>
+               i'm uppercase
+          </span>
+          hey
+          Aut suscipit molestiae eveniet quisquam.
+          </p>
+     </div> -->
+
+ <!-- CLASS SELECTOR => EG:
+     <h1 id="title" class="green lowercase">i'm green</h1>
+     <h1 class="green">I'm green</h1>
+     <h2 class="red">I'm red</h2>
+     <h2 class="red">I'm red</h2>
+     <h1 class="green">I'm green</h1>
+     <h2 class="red lowercase">I'm red</h2> -->
+
+ <!-- ID SELECTORS => EG:
+     <h1 id="title">Title Heading</h1>
+     <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam iste blanditiis rerum dolor ullam? Excepturi deserunt fugiat a tempora placeat quam quaerat consequuntur repellat sequi.
+     </p>
+     <h1 id="subheading">Footer Heading</h1> -->
+
+ <!-- ELEMENT SELECTORS => EG:
+     <h1>hello world</h1>
+     <h2>hello people</h2>
+     <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde asperiores tenetur corporis molestias recusandae totam veniam pariatur dolorum deleniti dolores?
+     </p> -->
+
+ <!-- EXTERNAL CSS => {} => EG:
+     <h1 style="color: purple;">hello world</h1>
+     <h1>hello world</h1>
+     <h1>hello world</h1>
+     <h2>hello world</h1>
+     <h2>hello world</h2>
+     <h2>hello world</h2> -->
+
+
+ <!-- INTERNAL CSS => {we will give css in head tag. it is stronger than external style sheet} 
+     <h1>hello world</h1>
+     <h1>hello world</h1>
+     <h1>hello world</h1>
+     <h1>hello world</h1>
+     <h2>hello world</h2> -->
+
+ <!-- INLINE CSS =>{with in the line only we will give css. it is stronger than external and internal css}
+     <h1 style="color: red; font-size: 3rem;">hello world</h1> -->
+</body>
+
+</html>

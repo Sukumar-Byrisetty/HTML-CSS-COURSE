@@ -1,0 +1,123 @@
+/* LAST RULE, SPECIFICITY & UNIVERSAL SELECTOR */
+/* UNIVERSAL SELECTOR => {it has least amount of specificity} */
+* {
+ color: #9f1a3f;
+}
+
+p {
+ color: #01af32;
+}
+
+/* SPECIFICITY => {if you apply lastrule it will take first rule only} 
+.red {
+  color: red;
+}
+p {
+  color: blue;
+}
+h1 {
+color: green;
+} */
+
+/* LAST RULE => {whatever you give last it will be applied}
+p {
+  color: #e1a61f;
+}
+p {
+  color: #f15a8e;
+} 
+h1 {
+  color: orange;
+}  */
+
+/* INHERITANCE => {inheritance is gonna work unless you adding the speciffic style for that particul;ar element}
+body {
+  color: #661aff;
+  font-family: monospace;
+  line-height: 1.5em;
+}
+div {
+  color: #0dbdab;
+  border: 2px solid black;
+}
+h1 {
+  color: red;
+} */
+
+/* DIV & SPAN ELEMENTS =>  
+.green {
+  color: green;
+}
+.red {
+  color: purple;
+  background: grey;
+}
+span {
+  text-transform: uppercase;
+} */
+
+/* CLASS SELECTOR =>  
+.green{
+  color: purple;
+  font-size: 20px;
+  background-color: grey;
+}
+.red { 
+  color: chocolate;
+  font-size: 20px;
+}
+#title {
+  font-size: 45px;
+}
+.lowercase {
+  text-transform: lowercase;
+} */
+
+/* ID SELECTOR =>  
+#title {
+  color: red;
+  background-color: black;
+}
+#subheading {
+  color: purple;
+  background-color: chocolate;
+}
+p {
+  color: blue;
+}  */
+
+/*ELEMENT SELECTORS =>
+body {
+  color: red;
+}
+h1, h2 {
+  color: #f13ae2;
+}
+
+/* h1 {
+  color: #12aff3;
+}
+h2 {
+  color: #5da812;
+}
+p {
+  color: rgb(83, 7, 134);
+  font-size: 40px;
+} */
+
+/* EXTERNAL CSS => 
+h1 {
+  color: red;
+  font-size: 32px;
+}
+h2 {
+  color: #1ff43a;
+  font-size: 42px;
+} */
+
+/* css rule=> with in the line we will comment*/
+/* selectors => h1 and h2 are selectors */
+/* declaration block => {} => with in braces called declaration */
+/* declaration */
+/* property => color */
+/* value => red */
