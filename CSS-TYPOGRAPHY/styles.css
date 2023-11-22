@@ -1,0 +1,73 @@
+/* LINE-HEIGHT
+LETTER-SPACING
+WORD-SPACING
+TEXT-TRANSFORM
+TEXT-DECORATION  => */
+.one {
+ line-height: 0.5rem;
+}
+
+.two {
+ letter-spacing: 5px;
+ text-decoration: overline;
+}
+
+.three {
+ word-spacing: 20px;
+ text-decoration: underline;
+}
+
+h1 {
+ text-transform: uppercase;
+ text-decoration: line-through;
+}
+
+a {
+ text-decoration: none;
+ font-size: 30px;
+}
+
+/* GOOGLE FONTS */
+/* FONT-WEIGHT */
+/* FONT-STYLE */
+/* style we import here from google fonts=>
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto:wght@700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  text-align: left; 
+}
+.main {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+.subheading{
+  font-style: normal;
+}
+.one {
+  font-weight: bold;
+  text-indent: 100px;
+}
+.two {
+  font-weight: lighter;
+  text-align: left;
+  text-indent: 10rem;
+} */
+
+/* FONT-STACK GENERIC-FAMILY
+SERIF, SANS-SERIF, CURSIVE, FANTASY, MONOSPACE =>
+body { 
+  font-family: 'Courier New', Courier, monospace;
+}
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+} */
+
+/* FONT-SIZE FONT-FAMILY =>
+body {
+  font-family: Helvetica;
+}
+h1 {
+  font-family: Verdana; 
+} */
