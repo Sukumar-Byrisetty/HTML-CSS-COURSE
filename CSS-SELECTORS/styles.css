@@ -1,0 +1,88 @@
+/* :root root element of the document
+html element
+general styles
+css variables */
+:root {
+ background: red;
+ font-size: 150%;
+}
+
+/* 1rem = 16px */
+h1 {
+ font-size: 3rem;
+}
+
+.absolute {
+ font-size: 24px;
+}
+
+.responsive {
+ font-size: 1.5rem
+}
+
+
+/* :link :visited :hover :active => */
+/* a:link {
+ color: aqua;
+}
+a:visited {
+ color: green;
+}
+a:hover {
+ color: violet;
+}
+a:active {
+ color: blue;
+} */
+
+/* :Hover => */
+/* p:hover {
+ color: red;
+}
+.header:hover {
+ background: blue;
+ color: white;
+}
+a:hover {
+ text-decoration: none;
+} */
+
+/* ::First-line :: First-letter => */
+/* p::first-line {
+ font-weight: bold;
+}
+p::first-letter {
+ font-size: 2rem;
+} */
+
+/* Decscendant and Child Combinators  =>*/
+/* .header h1 {
+ color: green;
+}
+.header>h1 {
+ color: purple;
+}
+div h1{
+ color: red;
+}
+div > h1 {
+ color: blue;
+} */
+
+/* BASIC SELECTOR => */
+/* *  {
+ color: red;
+}
+#heading {
+ font-size: 40px;
+ text-transform: uppercase;
+ color: blue;
+}
+.heading {
+ font-size: 30px;
+ text-transform: capitalize;
+ color: green;
+}
+p {
+ letter-spacing: 20px;
+} */
