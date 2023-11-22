@@ -1,0 +1,208 @@
+p::before {
+ content: "hello ";
+ display: block;
+ background-color: black;
+ font-weight: bold;
+ font-size: 2rem;
+ color: red;
+}
+
+p::after {
+ content: "";
+ display: block;
+ background-color: black;
+ width: 50px;
+ height: 50px;
+ background: green;
+}
+
+div {
+ width: 60vw;
+ margin: 100px auto;
+ position: relative;
+}
+
+img {
+ width: 100%;
+ display: block;
+}
+
+div::before {
+ content: "";
+ border: 2px solid grey;
+ width: 100%;
+ height: 100%;
+ position: absolute;
+ box-sizing: border-box;
+ top: -40px;
+ left: -40px;
+ z-index: -2;
+}
+
+div::after {
+ content: "";
+ background: grey;
+ width: 100%;
+ height: 100%;
+ position: absolute;
+ box-sizing: border-box;
+ top: -20px;
+ left: -20px;
+ z-index: -1;
+ transition: all 0.5s linear;
+}
+
+div:hover::after,
+div:hover::before {
+ top: 0;
+ left: 0;
+}
+
+
+/* pseudo elements ::before ::after CONTENT not element
+content:'' --- :required here
+img --- does not work => */
+/* p::before {
+ content: "hello ";
+ display: block;
+ background-color: black;
+ font-weight: bold;
+ font-size: 2rem;
+ color: red;
+}
+p::after {
+ content: "";
+ display: block;
+ background-color: black;
+ width: 50px;
+ height: 50px;
+ background: green;
+} */
+
+/* Z-Index --- Z-Axis
+Position:static --- does not work in z-index elements  => */
+/* img {
+ width: 200px;
+ height: 200px;
+ position: absolute;
+}
+.banner {
+ margin: 20px;
+ width: 70vw;
+ height: 70vh;
+ border: 5px solid red ;
+ position: relative;
+}
+.one {
+ top: 0;
+ left: 0;
+ position: relative;
+ z-index: 100;
+ /* z-index: 0; 
+}
+.two {
+ top: 10%;
+ left: 10%;
+ z-index: 1;
+}
+.three {
+ top: 20%;
+ left: 20%;
+ z-index: 2;
+} */
+
+/* Media Queries
+Responsive Design
+Style Elements On Different Screen Sizes
+min-width: --- starting form
+max-width: --- up to
+Mobile First */
+
+/* MAX-WIDTH => */
+/* body {
+ background: yellow;
+}
+.banner {
+ background: blue;
+}
+h1 {
+ color: white;
+ text-align: center;
+ text-decoration: underline;
+ text-transform: capitalize;
+}
+
+@media screen and (max-width:576px) {
+ body {
+  background: red;
+ }
+
+ .banner {
+  background: yellow;
+ }
+
+ h1 {
+  color: black;
+  font-size: 60px;
+ }
+} 
+@media screen and (max-width: 768px) {
+ body {
+  background: green;
+ }
+
+ .banner {
+  background: blue;
+  border-radius: 20px;
+ }
+
+ h1 {
+  color: red;
+  font-size: 40px;
+  text-align: right;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+} */
+
+/* MIN-WIDTH =>
+body {
+ background: yellow;
+}
+.banner {
+ background: blue;
+}
+h1 {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+@media screen and (min-width:576px) {
+ body {
+  background: red;
+ }
+ .banner {
+  background: yellow;
+ }
+ h1 {
+  color: black;
+  font-size: 16px;
+ }
+}
+@media screen and (min-width: 768px) {
+ body {
+  background: green;
+ }
+
+ .banner {
+  background: blue;
+ }
+
+ h1 {
+  color: red;
+  font-size: 60px;
+  text-align: right;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+} */
